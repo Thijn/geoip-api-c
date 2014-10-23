@@ -78,7 +78,7 @@ install: $(GEOIP_LIB) app_progs
    cd .. 
  
 clean: 
-   del $(LIB_DIR)\*.obj $(LIB_DIR)\*.lib \ 
+   del /F /Q $(LIB_DIR)\*.obj $(LIB_DIR)\*.lib \ 
    $(APP_DIR)\*.obj $(APP_DIR)\*.exe \ 
    $(TEST_DIR)\*.obj $(TEST_DIR)\*.exe 
  
